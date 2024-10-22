@@ -1,0 +1,18 @@
+{
+  "name": "node-begginer-course",
+  "version": "1.0.0",
+  "description": "first-node-project",
+  "main": "index.js",
+  "scripts": {
+    "static": "serve -p 5050 static",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivo Konstantinow",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "fastify": "^5.0.0",
+    "fastify-cli": "^7.0.1",
+    "serve": "^6.5.8"
+  }
+}
